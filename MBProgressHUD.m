@@ -97,7 +97,7 @@ static const CGFloat MBDefaultDetailsLabelFontSize = 12.f;
     _mode = MBProgressHUDModeIndeterminate;
     _margin = 20.0f;
     _opacity = 1.f;
-    _defaultMotionEffectsEnabled = YES;
+    _defaultMotionEffectsEnabled = NO;
 
     // Default color, depending on the current iOS version
     BOOL isLegacy = kCFCoreFoundationVersionNumber < kCFCoreFoundationVersionNumber_iOS_7_0;
